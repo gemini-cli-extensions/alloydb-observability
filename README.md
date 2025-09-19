@@ -1,5 +1,8 @@
 # Gemini CLI Extension - AlloyDB for PostgreSQL Observability
 
+> [!NOTE]
+> This extension is currently in beta, and may see breaking changes until the first stable release (v1.0).
+
 This Gemini CLI extension provides a set of tools to interact with [AlloyDB for PostgreSQL](https://cloud.google.com/alloydb) monitoring metrics. It allows you to fetch a wide range of database metrics, enabling comprehensive monitoring of database performance and health directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
@@ -8,9 +11,6 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 
 * **Natural Language Management:** Stop wrestling with complex monitoring queries. Explore monitoring data by describing what you want in plain English.
 * **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common tasks.
-
-> [!NOTE]
-> This extension is currently in beta, and may see breaking changes until the first stable release (v1.0).
 
 ## Prerequisites
 
