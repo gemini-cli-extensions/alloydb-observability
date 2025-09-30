@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.0...0.1.1) (2025-09-30)
+
+
+### Features
+
+* additional instructions for the context file ([#26](https://github.com/gemini-cli-extensions/alloydb-observability/issues/26)) ([5838851](https://github.com/gemini-cli-extensions/alloydb-observability/commit/5838851312550c0a161ce8c1570e7127ab8983d0))
+* standardize mcp server names ([#24](https://github.com/gemini-cli-extensions/alloydb-observability/issues/24)) ([277658f](https://github.com/gemini-cli-extensions/alloydb-observability/commit/277658ffc41a314be5e39ba8f5b0393ddd49044e))
+
 ## [0.1.0](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.0...0.1.0) (2025-09-20)
 
 
