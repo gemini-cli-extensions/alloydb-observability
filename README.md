@@ -21,7 +21,9 @@ Before you begin, ensure you have the following:
 *   IAM Permissions
   * Monitoring Viewer (`roles/monitoring.viewer`)
 
-## Installation
+## Getting Started
+
+### Installation
 
 To install the extension, use the command:
 
@@ -29,9 +31,17 @@ To install the extension, use the command:
 gemini extensions install https://github.com/gemini-cli-extensions/alloydb-observability
 ```
 
-## Configuration
+### Configuration
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
+
+### Start Gemini CLI
+
+To start the Gemini CLI, use the following command:
+
+```bash
+gemini
+```
 
 ## Usage Examples
 
@@ -49,8 +59,13 @@ Interact with Cloud Monitoring metrics using natural language right from your ID
 
 ## Additional Extensions
 
-Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions).
+Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions), including:
+* [AlloyDB extension](https://github.com/gemini-cli-extensions/alloydb)
+* [Generic PostgreSQL extension](https://github.com/gemini-cli-extensions/postgres)
+* and more!
 
 ## Troubleshooting
 
-* "cannot execute binary file": Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
+* "✖ Error during discovery for server: MCP error -32000: Connection closed": The database connection has not been established. Ensure your configuration is set via environment variables.
+* "✖ MCP ERROR: Error: spawn /Users/<USER>/.gemini/extensions/alloydb-observability/toolbox ENOENT": The Toolbox binary did not download correctly. Ensure you are using Gemini CLI v0.6.0+.
+* "cannot execute binary file": The Toolbox binary did not download correctly. Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
