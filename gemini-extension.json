@@ -1,9 +1,9 @@
 {
   "name": "alloydb-observability",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Manage and monitor database performance and health for AlloyDB for PostgreSQL databases.",
   "mcpServers": {
-    "AlloyDB Admin": {
+    "alloydb_observability": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
