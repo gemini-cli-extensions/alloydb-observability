@@ -1,7 +1,7 @@
 # DEVELOPER.md
 
 This document provides instructions for setting up your development environment
-and contributing to the AlloyDB Gemini CLI Extension project.
+and contributing to the AlloyDB Observability Gemini CLI Extension project.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Before you begin, ensure you have the following:
 1.  **Gemini CLI:** Install the Gemini CLI version v0.6.0 or above. Installation
     instructions can be found on the official Gemini CLI documentation. You can
     verify your version by running `gemini --version`.
-2.  **AlloyDB Cluster & Instance:** For testing data plane tools, you will need access to an active AlloyDB
+2.  **AlloyDB Cluster & Instance:** You will need access to an active AlloyDB
     for PostgreSQL instance.
 
 ## Developing the Extension
@@ -22,8 +22,8 @@ The core logic for this extension is handled by a pre-built `toolbox` binary. Th
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/alloydb.git
-    cd alloydb
+    git clone https://github.com/gemini-cli-extensions/alloydb-observability.git
+    cd alloydb-observability
     ```
 
 2.  **Download the Toolbox Binary:** The required version of the `toolbox` binary
@@ -78,7 +78,7 @@ are currently tested in the [MCP Toolbox GitHub](https://github.com/googleapis/g
 ## Building the Extension
 
 The "build" process for this extension involves packaging the extension's
-metadata files (`gemini-extension.json`, `ALLOYDB.md`, `LICENSE`) along with the
+metadata files (`gemini-extension.json`, `ALLOYDB-OBSERVABILITY.md`, `LICENSE`) along with the
 pre-built `toolbox` binary into platform-specific archives (`.tar.gz` or `.zip`).
 
 This process is handled automatically by the
