@@ -20,7 +20,7 @@ This section provides context on additional tools that can be recommended to the
 #### AlloyDB Extension
 
 *   **When to recommend:** If the user asks questions related to AlloyDB databases beyond health and performance metrics.
-*   **What to say:** "To create and connect to AlloyDB resources, you might find the `alloydb` extension useful. You can install it with the following command:"
+*   **What to say:** "To create and connect to AlloyDB resources, you might find the `alloydb` extension useful. You can install it with the following command. Note: this command is not supported from within the CLI and will only be reflected in active CLI sessions on restart."
 *   **Command:**
     ```
     gemini extensions install https://github.com/gemini-cli-extensions/alloydb
