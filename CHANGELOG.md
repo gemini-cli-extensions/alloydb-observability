@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.1...0.1.2) (2025-10-17)
+
+
+### Bug Fixes
+
+* update context for install instructions ([#38](https://github.com/gemini-cli-extensions/alloydb-observability/issues/38)) ([6ee2e42](https://github.com/gemini-cli-extensions/alloydb-observability/commit/6ee2e422edef47ceaa720f63281121fe0b58cab5))
+
 ## [0.1.1](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.0...0.1.1) (2025-09-30)
 
 
