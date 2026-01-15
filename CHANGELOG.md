@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.2...0.1.3) (2026-01-13)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.25.0 ([#62](https://github.com/gemini-cli-extensions/alloydb-observability/issues/62)) ([3ffc330](https://github.com/gemini-cli-extensions/alloydb-observability/commit/3ffc330d0c81309132b050f7cbc926675c56c9d6))
+
 ## [0.1.2](https://github.com/gemini-cli-extensions/alloydb-observability/compare/0.1.1...0.1.2) (2025-10-17)
 
 
